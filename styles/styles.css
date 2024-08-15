@@ -6,10 +6,58 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: black;
+  color:#ffffff;
+  
+}
+.firstpart{
+    background-color: #2b2b2b;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 50px 10px 40px;
+    
+
+
 }
 .brand-name{
-    font-size: 36px;
+    font-size: 3.2rem;
     font-style: italic;
-    font-weight: bolder;
+    font-weight:800px;
+    color: #E6533C;
+    padding-left:100px;
 
+}
+.nav-item{
+    list-style: none;
+    margin-right: 50px;
+   
+
+}
+.nav-link{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #ffffff;
+     
+}
+
+.nav-banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.header-heading{
+    font-size: 4.9rem;
+}
+.join-btn{
+    padding: 1rem 2.8rem;
+    background-color: #E6533C;
+    border-radius: 3rem;
+}
+.download-btn{
+    padding: 1rem 3rem;
+    border-radius: 3rem;
 }
